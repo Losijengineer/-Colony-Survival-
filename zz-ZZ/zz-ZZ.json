@@ -1,0 +1,1531 @@
+{
+	"coverage" : 99.99,
+	"hints" : {
+		"0" : "对于大多数的农场来说，更大的规模意味着更多的产出——浆果农场是个例外。",
+		"1" : "招募更多的殖民者意味着生成的怪物种类与数目会变多。",
+		"10" : "一般来说，3*33大小的树场是最佳的。",
+		"11" : "按着'CTRL'键可以防止滑下方块边缘。",
+		"12" : "在招募殖民者的时候，按着'CTRL'键可以一次性招募15个殖民者。",
+		"13" : "在放置建筑蓝图时，按'CTRL'可以放置两个一样的蓝图。",
+		"14" : "您可以在Steam论坛或Discord上找到许许多多的MOD。",
+		"15" : "您可以在仓库中搜索您想要的物品。",
+		"2" : "您可以在世界的某些层上找到矿石。挖得更深以发现不同的矿物。",
+		"3" : "按下'G'键可以打开头灯。",
+		"4" : "点击职业方块可以查看它们能制作的配方，也可以调整其优先级。",
+		"5" : "按下'F1'以打开教程",
+		"6" : "科学家们会使用科研袋中的物品，但袋子本身会被放回仓库。",
+		"7" : "射程、装填速度和伤害等方面的差异，使得每种卫兵都有其优缺点。",
+		"8" : "我们每周五都会在咱们的Steam商店页面上发布一篇博客，以告知玩家更多的关于Colony Survival的开发信息！",
+		"9" : "火铳和枪支是会消耗火药和子弹，但装火药和子弹的袋子会留下来。"
+	},
+	"sentences" : {
+		"bannerclickedpopup" : {
+			"deletebanner" : "移除旗帜",
+			"deletecolony" : "删除殖民地",
+			"deletecolonydescription" : "移除此殖民地的最后一枚旗帜将会驱逐所有的殖民者，并永久删除此殖民地。在下面输入'delete'以确认删除殖民地。",
+			"header" : "旗帜设置",
+			"noconfirmationdelete" : "您需要在文本框里输入'delete'以确认移除！",
+			"placementfail" : "你不能把旗帜放在这里"
+		},
+		"bannerplacementpopup" : {
+			"activecolony" : "你的殖民地数： {0}",
+			"addbanner" : "添加旗帜",
+			"header" : "放置旗帜",
+			"movebanner" : "移动旗帜",
+			"mustbeleader" : "只有殖民主才可以移动旗帜",
+			"startcolony" : "在这儿创建一个新的殖民地"
+		},
+		"biome" : {
+			"arctic" : {
+				"description" : "极地的殖民地",
+				"name" : "极地殖民地"
+			},
+			"fareast" : {
+				"description" : "远东的殖民地",
+				"name" : "远东殖民地"
+			},
+			"newworld" : {
+				"description" : "新世界的殖民地",
+				"name" : "新世界殖民地"
+			},
+			"oldworld" : {
+				"description" : "旧世界的殖民地",
+				"name" : "旧世界殖民地"
+			},
+			"tropics" : {
+				"description" : "热带的殖民地",
+				"name" : "热带殖民地"
+			}
+		},
+		"chat" : {
+			"colonydied" : "所有位于 {0} 的殖民者被杀死了。",
+			"onsciencedone" : "你完成了科技 {0}",
+			"onscienceready" : "科技 {0} 可以完成了！",
+			"onsciencetraded" : "你通过交易完成了科技 {0} 。",
+			"playerdied" : "玩家 {0} 死了。"
+		},
+		"colonymanagement" : {
+			"colonysettings" : {
+				"daymonsters" : "白天怪物的数量",
+				"enablehappiness" : "开启殖民地心情值系统",
+				"header" : "殖民地设置",
+				"nightmonsters" : "夜晚怪物的数量"
+			},
+			"connectedplayers" : "已连接玩家",
+			"currentowners" : "殖民主",
+			"diplomacy" : {
+				"mainbutton" : "请求[77]",
+				"mainheader" : "请求[78]",
+				"ruleaccept" : "接受",
+				"ruleactive" : "活跃",
+				"rulepending" : "待处理",
+				"ruleremove" : "删除"
+			},
+			"inventoryheader" : "殖民地",
+			"invite" : "作为殖民主添加",
+			"kick" : "踢出殖民地",
+			"leader" : "殖民主",
+			"leave" : "离开殖民地",
+			"managecolonies" : {
+				"location" : {
+					"east" : "_MISSING_{0} blocks east",
+					"key" : "_MISSING_Location: ",
+					"north" : "_MISSING_{0} blocks north, ",
+					"south" : "_MISSING_{0} blocks south, ",
+					"west" : "_MISSING_{0} blocks west"
+				},
+				"mainbutton" : "_MISSING_Manage Colonies",
+				"mainheader" : "_MISSING_Manage Colony",
+				"selectheader" : "_MISSING_Select a colony to manage",
+				"siegemode" : "_MISSING_Siege mode:"
+			},
+			"manageheader" : "_MISSING_Ownership Management",
+			"manageowners" : "_MISSING_Manage Owners",
+			"nameedit" : "_MISSING_Edit Colony Name:",
+			"namefield" : "殖民地名称：",
+			"recruitauto" : "自动招募殖民者",
+			"recruitautorequirements" : "<i>Turning this on will recruit a new colonist when placing a job with at least -10 happiness, spare beds, 2 days worth of food and exactly 0 unemployed</i>",
+			"recruitmentamount" : "需要招募的殖民者数：",
+			"recruitmentbutton" : "招募殖民者",
+			"recruitmentheader" : "招募",
+			"recruittext3" : "每个殖民者都需要一张床，每天消耗2000卡路里。",
+			"recruittext4" : "招募下一个殖民者需要成本 {0} 卡路里。",
+			"recruittext5" : "因为心情值，招募的成本相对于正常值为 {0} ",
+			"recruittofillbeds" : "一键招募以填补床的空缺",
+			"recruittofilljobs" : "一键招募以填补岗位的空缺",
+			"resetcolonypriority" : "重置正常殖民地的优先级",
+			"science" : {
+				"incomingdescription2" : "他们会与您分享科技。",
+				"newagreement" : "_MISSING_Propose science agreement",
+				"outgoingdescription2" : "_MISSING_You provide them with your science",
+				"selectcolony" : "_MISSING_Select a colony to send science to"
+			},
+			"selectcolony" : {
+				"headercolonists" : "_MISSING_Colonists",
+				"headercolony" : "_MISSING_Colony",
+				"headerleader" : "_MISSING_Leader",
+				"headerselect" : "_MISSING_Select",
+				"nocolonies" : "_MISSING_No colonies to list",
+				"select" : "_MISSING_Select"
+			},
+			"settoleader" : "_MISSING_Set to leader",
+			"start" : {
+				"create" : "建立一个殖民地",
+				"defaultkit" : "_MISSING_First time starter kit is used",
+				"kits" : "_MISSING_Available Kits",
+				"missingkit" : "_MISSING_Missing a colony starter kit",
+				"name" : "殖民地名称",
+				"parentcolony" : "_MISSING_Parent Colony",
+				"popupheader" : "_MISSING_Colony Creation",
+				"usescienceagreement" : "_MISSING_Transfer Science"
+			},
+			"startrecruitment" : "_MISSING_Recruitment",
+			"startsettings" : "_MISSING_Colony Settings",
+			"switchcolony" : "_MISSING_Switch to {0}",
+			"trading" : {
+				"completerule" : "_MISSING_Create rule",
+				"mainheader" : "_MISSING_New trading rule settings",
+				"newrule" : "_MISSING_Propose trading rule",
+				"ruledescription" : "_MISSING_Traders will trade {0} from {1} to {2} if both of the following:",
+				"ruledescriptionlimit" : "_MISSING_ {0} items left to trade.",
+				"ruleincomingdescr2" : "_MISSING_Get {0} if they have more than {1} and we have less than {2}.",
+				"rulemaximumgoal" : "_MISSING_{0} has less than: ",
+				"rulemaximumtraded" : "_MISSING_This deal will send up to the following amount of items in total: ",
+				"ruleminimumthis" : "_MISSING_{0} has more than: ",
+				"ruleoutgoingdescr2" : "_MISSING_Send {0} if we have more than {1} and they have less than {2}.",
+				"selectcolony" : "_MISSING_Select a colony to trade to"
+			}
+		},
+		"connectingscreen" : {
+			"general_1" : "加载中... {0}/{1} - 需要密码",
+			"general_2" : "加载中... {0}/{1} - 请求服务器文件列表中",
+			"general_3" : "加载中... {0}/{1} - 正在加载 {2} 个文件",
+			"general_3_downloading" : "(正在下载 {0} 个包)",
+			"general_4" : "加载中... {0}/{1} - 完成中...",
+			"general_fail" : "在 {0} 秒后响应超时，5秒后将返回主菜单",
+			"loading" : "加载中...",
+			"localhost_1" : "_MISSING_Stage 1/{0} - Searching for singleplayer server on this computer",
+			"localhost_2" : "_MISSING_Stage 2/{0} - Searching for steam server on this computer",
+			"localhost_fail" : "_MISSING_Failed to find steam/singleplayer server running on this computer. Reloading to main menu in 5 seconds.",
+			"refused" : {
+				"blacklisted" : "_MISSING_you are blacklisted",
+				"incompatible" : "_MISSING_server had an unexpected problem",
+				"invalidpassword" : "_MISSING_password was invalid",
+				"invalidticket" : "_MISSING_steam ticket was invalid",
+				"maxplayer" : "_MISSING_server is full",
+				"misc" : "_MISSING_unknown reason",
+				"notonwhitelist" : "_MISSING_you are not whitelisted",
+				"versionwrongclient" : "_MISSING_version mismatch according to the client",
+				"versionwrongserver" : "_MISSING_version mismatch according to the server"
+			},
+			"refused_main" : "_MISSING_Connection refused, {0}. Returning to main menu in 5 seconds.",
+			"sp_1" : "_MISSING_Stage 1/{0} - Start listening for background server",
+			"sp_2" : "_MISSING_Stage 2/{0} - Starting background server",
+			"sp_3" : "_MISSING_Stage 3/{0} - Started server, awaiting connection",
+			"sp_alreadyrunning1_1" : "_MISSING_A server for this install is already running. It may still be quitting. Will retry in {0} seconds.",
+			"sp_alreadyrunning2" : "_MISSING_A server is already running. Returning to the main menu in 5 seconds.",
+			"steam01" : "_MISSING_Stage 1/{0} - Trying to setup TCP connection to {1}",
+			"steam02" : "_MISSING_Stage 2/{0} - Trying to setup steam connection",
+			"steam03" : "_MISSING_Stage 3/{0} - Connection succesful, authenticating",
+			"steamfail" : "_MISSING_Failed to setup a connection. Returning to main menu in 5 seconds."
+		},
+		"contentmanager" : {
+			"buttonbrowseworkshop" : "从创意工坊中打开",
+			"buttoncreateitem" : "创建一个项目",
+			"buttoneditdetails" : "编辑细节",
+			"buttonlistsubscribed" : "订阅项目",
+			"buttonsubmitcontent" : "提交",
+			"buttonupdatecontent" : "上传",
+			"changelogplaceholder" : "在这儿输入更新日志...",
+			"contenteditheader" : "_MISSING_Setting/updating content for {0}",
+			"contentpath" : "_MISSING_Content path: {0}",
+			"contenttypelabel" : "_MISSING_Content Type",
+			"contenttypes" : {
+				"itempack" : "_MISSING_Item Pack",
+				"misc" : "_MISSING_Miscellaneous",
+				"overhaul" : "_MISSING_Complete Overhaul",
+				"texturepack" : "_MISSING_Texture Pack",
+				"unknown" : "_MISSING_Unknown",
+				"utilities" : "_MISSING_Utilities",
+				"world" : "_MISSING_World"
+			},
+			"nocontentpath" : "_MISSING_No path selected yet",
+			"scenariolabel" : "_MISSING_Scenario name",
+			"statecommittingchanges" : "_MISSING_Committing changes: {0} / {1}",
+			"statepreparingconfig" : "_MISSING_Preparing config: {0} / {1}",
+			"statepreparingcontent" : "_MISSING_Preparing content: {0} / {1}",
+			"stateuploadingcontent" : "_MISSING_Uploading content: {0} / {1}",
+			"stateuploadingpreview" : "_MISSING_Uploading preview: {0} / {1}",
+			"thumbnailpath" : "_MISSING_Thumbnail path:",
+			"yourcontent" : "_MISSING_Your created workshop content"
+		},
+		"escapemenu" : {
+			"back" : "返回游戏",
+			"info" : "信息",
+			"quitdesktop" : "返回桌面",
+			"quitmain" : "返回主菜单",
+			"settings" : "设置"
+		},
+		"firstpersonstats" : {
+			"ammocount" : "弹药:",
+			"bedcount" : "床:",
+			"caloriestorage" : "卡路里:",
+			"calorieusage" : "卡路里消耗/天:",
+			"colonistcount" : "殖民者人数:",
+			"happiness" : "殖民地心情值:",
+			"laborercount" : "闲置人数:"
+		},
+		"general" : {
+			"apply" : "确定",
+			"back" : "返回",
+			"close" : "关闭",
+			"delete" : "删除",
+			"description" : "描述",
+			"edit" : "编辑",
+			"enabled" : "禁用",
+			"high" : "高",
+			"inputplaceholder" : "输入文本...",
+			"low" : "低",
+			"next" : "下一页",
+			"no" : "否",
+			"none" : "无",
+			"normal" : "正常",
+			"previous" : "上一页",
+			"reset" : "重置",
+			"select" : "选择",
+			"selected" : "已选择",
+			"veryhigh" : "很高",
+			"yes" : "是"
+		},
+		"happiness" : {
+			"availablefood" : "{0}%可用 为{1}[261]",
+			"availableluxury" : "{0}%可用 为{1}[262]",
+			"baseamount" : "基础心情值[263]",
+			"calories" : "卡路里配给",
+			"calorieshappy" : "殖民者吃得好",
+			"calorieshunger" : "殖民者饿了",
+			"caloriesstarvation" : "殖民者挨饿",
+			"colonistcount" : "殖民者人口",
+			"disabledeffect" : "心情值系统关闭",
+			"recruitmentcost" : "招募成本：一般成本的 {0:P0} [270]",
+			"sciencespeed" : "科研速率：一般速率的 {0:P0} [271]",
+			"totalhappiness" : "总心情值：{0}"
+		},
+		"infomenu" : {
+			"changelog" : "更新日志",
+			"credits" : "制作组",
+			"quickstart" : "快速入门"
+		},
+		"mainmenu" : {
+			"back" : "返回",
+			"contentmanager" : "MOD管理器",
+			"coop" : "局域网联机",
+			"info" : "信息",
+			"multiplayer" : "多人游戏",
+			"quit" : "退出",
+			"settings" : "设置",
+			"singleplayer" : "单人游戏"
+		},
+		"multiplayermenu" : {
+			"colonistcount" : "_MISSING_Colonist Count",
+			"connectlocal" : "连接LAN",
+			"header_friends" : "_MISSING_Friends",
+			"header_history" : "_MISSING_History",
+			"header_internet" : "_MISSING_Internet",
+			"header_lan" : "_MISSING_LAN",
+			"ipaddress" : "_MISSING_Address",
+			"join" : "_MISSING_Join",
+			"mods" : "_MISSING_Mods",
+			"passworded" : "_MISSING_Passworded",
+			"refresh2" : "_MISSING_Refresh",
+			"refreshing" : "刷新中",
+			"refreshquick" : "_MISSING_Quick Refresh",
+			"selectedserver" : "_MISSING_Selected Server",
+			"serverping" : "ping",
+			"serverplayers" : "玩家",
+			"servers" : "_MISSING_Servers",
+			"showempty" : "_MISSING_Show Empty",
+			"showfull" : "_MISSING_Show Full",
+			"showincompatible" : "_MISSING_Show Incompatible",
+			"version" : "_MISSING_Version"
+		},
+		"pipliz" : {
+			"baseresearch" : {
+				"archery" : {
+					"description" : "解锁弓箭手\n在工作台上可以制造弓了",
+					"name" : "箭术"
+				},
+				"bannerradius1" : {
+					"description" : "旗帜安全半径增加到 40 格",
+					"name" : "旗帜半径 I"
+				},
+				"bannerradius2" : {
+					"description" : "旗帜安全半径增加到 50 格",
+					"name" : "旗帜半径 II"
+				},
+				"bannerradius3" : {
+					"description" : "旗帜安全半径增加到 60 格",
+					"name" : "旗帜半径 III"
+				},
+				"bannerradius4" : {
+					"description" : "旗帜安全半径增加到 70 格",
+					"name" : "旗帜半径 IV"
+				},
+				"bannerradius5" : {
+					"description" : "旗帜安全半径增加到 80 格",
+					"name" : "旗帜半径 V"
+				},
+				"bannerradius6" : {
+					"description" : "旗帜安全半径增加到 90 格",
+					"name" : "旗帜半径 VI"
+				},
+				"bannerradius7" : {
+					"description" : "旗帜安全半径增加到 100 格",
+					"name" : "旗帜半径 VII"
+				},
+				"barleyfarmer" : {
+					"description" : "解锁大麦农场\n——大麦可以用来饲养家禽。",
+					"name" : "大麦种植"
+				},
+				"beekeeper" : {
+					"description" : "解锁养蜂人\n可以制造（一些）多样的奢侈品和食物了",
+					"name" : "养蜂人"
+				},
+				"bronzeanvil" : {
+					"description" : "解锁青铜砧\n——它可以加工青铜。",
+					"name" : "青铜砧"
+				},
+				"bronzeminting" : {
+					"description" : "解锁造币厂和商店\n——可用于购买种子、泥土和其它物品。",
+					"name" : "造币厂和商店"
+				},
+				"cabbagefarmer" : {
+					"description" : "解锁白菜农场",
+					"name" : "白菜种植"
+				},
+				"cacao" : {
+					"description" : "解锁可可农场",
+					"name" : "可可种植"
+				},
+				"candles" : {
+					"description" : "可以让养蜂人制作蜡烛了",
+					"name" : "蜡烛"
+				},
+				"chickenfarmer" : {
+					"description" : "解锁养鸡场",
+					"name" : "鸡的养殖"
+				},
+				"chocolate" : {
+					"description" : "解锁巧克力",
+					"name" : "巧克力"
+				},
+				"coffee" : {
+					"description" : "可以在火炉中将咖啡豆制作为咖啡了",
+					"name" : "咖啡"
+				},
+				"coffeebeans" : {
+					"description" : "解锁咖啡豆农场",
+					"name" : "咖啡豆种植"
+				},
+				"colonykit" : {
+					"description" : "可以编辑殖民地的初始物资了",
+					"name" : "殖民"
+				},
+				"constructionbuilder" : {
+					"description" : "解锁建筑工人的建筑区域",
+					"name" : "建筑工人"
+				},
+				"constructionbuildersize1" : {
+					"description" : "将最大建筑区域大小增加到25.000",
+					"name" : "建筑限制 I"
+				},
+				"constructionbuildersize2" : {
+					"description" : "将最大建筑区域大小增加到 100.000",
+					"name" : "建筑限制 II"
+				},
+				"constructionbuildersize3" : {
+					"description" : "将最大建筑区域大小增加到 250.000",
+					"name" : "建筑限制 III"
+				},
+				"constructionbuildersize4" : {
+					"description" : "将最大建筑区域大小增加到 500.000",
+					"name" : "建筑限制 IV"
+				},
+				"constructionbuildersize5" : {
+					"description" : "将最大建筑区域大小增加到 1.000.000",
+					"name" : "建筑限制 V"
+				},
+				"constructiondigger" : {
+					"description" : "解锁建筑工人的挖掘区域",
+					"name" : "挖掘"
+				},
+				"constructiondiggersize1" : {
+					"description" : "将最大挖掘区域大小增加到 25.000",
+					"name" : "挖掘限制 I"
+				},
+				"constructiondiggersize2" : {
+					"description" : "将最大挖掘区域大小增加到 100.000",
+					"name" : "挖掘限制 II"
+				},
+				"constructiondiggersize3" : {
+					"description" : "将最大挖掘区域大小增加到 250.000",
+					"name" : "挖掘限制 III"
+				},
+				"constructiondiggersize4" : {
+					"description" : "将最大挖掘区域大小增加到 500.000",
+					"name" : "挖掘限制 IV"
+				},
+				"constructiondiggersize5" : {
+					"description" : "将最大挖掘区域大小增加到 1.000.000",
+					"name" : "挖掘限制 V"
+				},
+				"constructiondiggerspecial" : {
+					"description" : "解锁特殊的建筑工人的挖掘区域[443]",
+					"name" : "特殊挖掘？"
+				},
+				"cook" : {
+					"description" : "解锁可以为殖民者做饭的厨师",
+					"name" : "厨师"
+				},
+				"cookies" : {
+					"description" : "可以制作饼干了",
+					"name" : "饼干"
+				},
+				"cottontowel" : {
+					"description" : "解锁棉毛巾相关的奢侈品[455]",
+					"name" : "棉毛巾"
+				},
+				"crossbow" : {
+					"description" : "解锁弩\n——一种比弓更有力的武器",
+					"name" : "弩"
+				},
+				"diamondprocessing" : {
+					"description" : "解锁加工钻石的技艺",
+					"name" : "钻石"
+				},
+				"dyertable" : {
+					"description" : "解锁染料工\n——他可以用一些染料给方块或灯笼染色[467]",
+					"name" : "染料工"
+				},
+				"fineryforge" : {
+					"description" : "解锁冶炼；\n可以用焦炭将铁矿石、金矿石炼成铁锭、金锭",
+					"name" : "冶炼"
+				},
+				"fisherman" : {
+					"description" : "解锁渔夫",
+					"name" : "捕鱼"
+				},
+				"flaxfarming" : {
+					"description" : "解锁亚麻农场\n——亚麻可以制作麻布。\n科技完成后，您会获得100粒亚麻种子。",
+					"name" : "亚麻种植"
+				},
+				"foofoo" : {
+					"description" : "可以烹饪Foofoo了[483]",
+					"name" : "Foofoo"
+				},
+				"fur" : {
+					"description" : "解锁加工毛皮的技艺",
+					"name" : "毛皮加工"
+				},
+				"glider" : {
+					"description" : "交通领域的革命！\n你可以用滑翔机抵达新大陆！",
+					"name" : "滑翔机"
+				},
+				"gunsmithshop" : {
+					"description" : "解锁制造火药和枪械的技艺",
+					"name" : "火药和枪"
+				},
+				"herbfarming" : {
+					"description" : "解锁三种不同的染料(herb)农场\n——染料可以为染料工所用[499]",
+					"name" : "染料种植"
+				},
+				"ironsmelting" : {
+					"description" : "解锁窑和锻铁炉",
+					"name" : "铁的冶炼"
+				},
+				"lantern" : {
+					"description" : "可以在铁砧上制造灯笼了\n——它们可以在染料工那被染色",
+					"name" : "灯笼"
+				},
+				"liferesearch1" : {
+					"description" : "增加总生命值、再生数和再生速率。",
+					"name" : "生命提升 I"
+				},
+				"liferesearch2" : {
+					"description" : "增加总生命值、再生数和再生速率。",
+					"name" : "生命提升 II"
+				},
+				"liferesearch3" : {
+					"description" : "增加总生命值、再生数和再生速率。",
+					"name" : "生命提升 III"
+				},
+				"liferesearch4" : {
+					"description" : "增加总生命值、再生数和再生速率。",
+					"name" : "生命提升 IV"
+				},
+				"matchlockgun" : {
+					"description" : "解锁火绳枪\n——一种早期的枪",
+					"name" : "火绳枪"
+				},
+				"newworldmeal" : {
+					"description" : "解锁新世界的食物[531]",
+					"name" : "新世界的食物"
+				},
+				"olivefarmer" : {
+					"description" : "解锁橄榄农场；\n可以制造更复杂的食物了",
+					"name" : "橄榄种植"
+				},
+				"papyrus" : {
+					"description" : "解锁纸莎草农场",
+					"name" : "纸莎草种植"
+				},
+				"porcelain" : {
+					"description" : "解锁制瓷的技艺",
+					"name" : "瓷"
+				},
+				"printingpress" : {
+					"description" : "解锁印刷术\n——这可以使书籍传播得更快",
+					"name" : "印刷术"
+				},
+				"ricefarmer" : {
+					"description" : "解锁大米农场",
+					"name" : "大米种植"
+				},
+				"sciencebagadvanced" : {
+					"description" : "解锁进阶科学袋\n——用于进阶研究",
+					"name" : "进阶科学袋"
+				},
+				"sciencebagbasic" : {
+					"description" : "解锁基础科学袋\n——用于基础研究",
+					"name" : "基础科学袋"
+				},
+				"sciencebagcolony" : {
+					"description" : "解锁殖民地科学袋\n——用于殖民地研究",
+					"name" : "殖民地科学袋"
+				},
+				"sciencebaglife" : {
+					"description" : "解锁生命科学袋\n——用于生命研究",
+					"name" : "生命科学袋"
+				},
+				"sciencebagmilitary" : {
+					"description" : "解锁军事科学袋\n——用于军事研究",
+					"name" : "军事科学袋"
+				},
+				"silkwormfarmer" : {
+					"description" : "可以养蚕了",
+					"name" : "养蚕"
+				},
+				"spinningwheel" : {
+					"fareast" : {
+						"description" : "解锁纺车",
+						"name" : "纺车"
+					},
+					"newworld" : {
+						"description" : "解锁纺车",
+						"name" : "纺车"
+					}
+				},
+				"splittingstump" : {
+					"description" : "解锁树桩，用来劈木头。\n这比工作台制造木柴要快。",
+					"name" : "树桩"
+				},
+				"stonemasonworkbench" : {
+					"description" : "解锁石匠\n——他可以制作不同品种的砖",
+					"name" : "石匠的工作台"
+				},
+				"sugarcane" : {
+					"description" : "解锁甘蔗农场",
+					"name" : "甘蔗种植"
+				},
+				"tailorshop" : {
+					"description" : "解锁裁缝\n——他可以把亚麻做成麻布",
+					"name" : "裁缝"
+				},
+				"teafarmer" : {
+					"description" : "解锁茶园",
+					"name" : "茶"
+				},
+				"technologisttable" : {
+					"description" : "解锁技术人员——他可以制造科学袋",
+					"name" : "技术人员"
+				},
+				"trader" : {
+					"description" : "解锁商人\n——他可以促进殖民地间的贸易",
+					"name" : "商人"
+				},
+				"vanilla" : {
+					"description" : "解锁香草农场",
+					"name" : "香草种植"
+				},
+				"watergatherer" : {
+					"description" : "解锁打水的技艺\n——可以在水源旁获得水桶",
+					"name" : "打水"
+				},
+				"waterpump" : {
+					"description" : "解锁水泵\n——可以通过抽取地下水以获得水桶",
+					"name" : "水泵"
+				},
+				"waxtablet" : {
+					"description" : "解锁蜡片\n——一种奢侈品",
+					"name" : "蜡片"
+				},
+				"wheatfarming" : {
+					"description" : "解锁面包\n——一种更复杂的粮食生产方法；仅适用于进阶的殖民地。\n解锁小麦农场、磨坊和烤炉。\n科技完成后，您会获得400粒小麦种子。",
+					"name" : "面包的生产"
+				},
+				"wintercoat" : {
+					"description" : "解锁冬衣",
+					"name" : "冬衣"
+				},
+				"writer" : {
+					"description" : "解锁文字；\n可以生产书籍以供娱乐了",
+					"name" : "文字"
+				}
+			}
+		},
+		"popup" : {
+			"areaselection" : {
+				"close" : "关闭",
+				"description" : "是否移除此区域？",
+				"header" : "区域菜单",
+				"remove" : "移除区域"
+			},
+			"death" : {
+				"description" : "你死了",
+				"respawn" : "重生"
+			},
+			"inventory" : {
+				"availableamount" : "仓库中： {0}",
+				"calorievalue" : "{0} 卡路里/物品",
+				"craftingstockpile" : "制作&仓库",
+				"distributionhappyperitem" : "{0} 心情值/物品",
+				"distributionpercolonist" : "{0} 物品/殖民者",
+				"distributionplanned" : "预计心情值增加： {0}",
+				"distributionreached" : "配给的比率： {0}%",
+				"distributiontotal" : "每日总物品： {0}",
+				"happinessvalue" : "心情值：",
+				"happy" : {
+					"header" : "心情值"
+				},
+				"madeintooltip" : "制作于：",
+				"noactivecolony" : "没有正常的殖民地！",
+				"science" : {
+					"available" : "可用",
+					"cancel" : "取消",
+					"completed" : "完成",
+					"completeunlock" : "完成",
+					"conditioncolonistcount" : "殖民者",
+					"conditioncolonistcountdescription" : "需要的殖民者数",
+					"conditionhappiness" : "需要的心情值",
+					"conditionhappinessdescription" : "最低心情值",
+					"conditionscientistrequires" : "需要 {0}",
+					"dependencies" : "科技要求:",
+					"header" : "科技",
+					"recipeunlocknpcgroup" : "解锁 {0}",
+					"recipeunlockoriginjob" : "在 {0} 制作",
+					"recipeunlockoriginplayer" : "由一个玩家制作",
+					"recipeunlocks" : "食物配方解锁:",
+					"startscience" : "开始科技",
+					"unavailable" : "不可用"
+				},
+				"searchfieldplaceholder" : "输入你要找的...",
+				"tooltip" : {
+					"and" : "和",
+					"instockpile" : "在仓库",
+					"needs" : "需要: ",
+					"nothing" : "空"
+				}
+			},
+			"itemselector" : {
+				"description" : "选择一个物品类型",
+				"header" : "选择物品"
+			},
+			"limits" : {
+				"description" : "殖民者将一直工作，直到储备量达到为止。",
+				"hoverpriority" : {
+					"a" : "工作优先级",
+					"b" : "'+++' 优先级最高\n'+' 优先级最低."
+				},
+				"pipliz" : {
+					"baker" : "烘焙储量已满",
+					"beekeeper" : "养蜂人工作已达上限",
+					"bloomeryjob" : "锻铁炉储量已满",
+					"chickenfarmer" : "养鸡场储量已满",
+					"cook" : "厨师工作已达上限",
+					"crafter" : "工作台储量已满",
+					"dyer" : "染色工工作已达上限",
+					"fineryforgejob" : "铁匠工作已达上限",
+					"grinder" : "磨坊储量已满",
+					"gunsmithjob" : "工坊储量已满",
+					"kilnjob" : "熔炉储量已满",
+					"merchant" : "作坊储量已满",
+					"metalsmithjob" : "采矿储量已满",
+					"minter" : "铸造储量已满",
+					"printingpress" : "印刷机储量已满",
+					"smelter" : "冶炼储量已满",
+					"stonemason" : "石匠工作已达上限",
+					"tailor" : "裁缝工作已达上限",
+					"technologist" : "技术人员工作已达上限",
+					"watergatherer" : "打水的工作已达上限",
+					"waterpump" : "水泵储量已满",
+					"wheelspinner" : "纺车储量已满",
+					"woodcutter" : "木桩储量已满",
+					"writer" : "作家工作已达上限"
+				}
+			},
+			"quickstart" : {
+				"closehelp" : "按F1关闭或打开此界面",
+				"closetoggle" : "不再显示",
+				"next" : "下一页",
+				"openmanual" : "打开指导手册 (PDF)",
+				"previous" : "上一页"
+			},
+			"specialblockremoval" : {
+				"button" : "清除",
+				"description" : "移除 {0} 方块可能会给殖民地带来麻烦。确定吗？",
+				"header" : "移除方块"
+			},
+			"toolconstruction" : {
+				"builder" : "建筑工人",
+				"buildera" : "",
+				"builderb" : "需要建筑区域",
+				"builderc" : "建造",
+				"description" : "选择要创建的区域类型.",
+				"destroyer" : "破坏",
+				"destroyera" : "",
+				"destroyerb" : "需要破坏区域",
+				"destroyerc" : "破坏",
+				"header" : "蓝图工具"
+			},
+			"tooljob" : {
+				"alkanetfarmer" : "朱草农场",
+				"alkanetfarmertool" : "朱草农场工具",
+				"bananafarmb" : "用来收获...香蕉",
+				"bananafarmer" : "香蕉农场",
+				"bananatool" : "香蕉农场工具",
+				"barleya" : "主要用于饲养家禽",
+				"barleyfarmer" : "大麦农场",
+				"barleyfarmertool" : "大麦农场工具",
+				"beekeeper" : "养蜂人",
+				"beekeepera" : "奢侈品必备",
+				"beekeepertool" : "养蜂人工具",
+				"berrya" : "快速又方便的食物——殖民生涯从浆果开始！",
+				"berryfarmer" : "浆果农场",
+				"berryfarmertool" : "浆果农场的工具",
+				"bow" : "弓",
+				"bowtooltip" : "伤害: 100 HP\n范围: 20 格\n填装速度: 5 秒",
+				"buildera" : "填补世界的缺口",
+				"builderarea" : "建筑区域",
+				"builderb" : "打开菜单选择区域类型，然后选择要建筑的区域。",
+				"cabbagea" : "奢侈品必备",
+				"cabbagefarmer" : "白菜农场",
+				"cabbagefarmertool" : "白菜农场工具",
+				"cacaob" : "可可",
+				"cacaofarmer" : "可可农场",
+				"cacaofarmertool" : "可可农场工具",
+				"cassavab" : "热带淀粉食物，用来做Foofoo的",
+				"cassavafarmer" : "木薯农场",
+				"cassavatool" : "木薯农场工具",
+				"chickenfarmer" : "养鸡场",
+				"chickenfarmera" : "养鸡场可以产出鸡蛋、鸡肉和羽毛",
+				"chickenfarmertool" : "养鸡场工具",
+				"cofeeb" : "咖啡豆",
+				"coffeebeanfarmer" : "咖啡豆农场",
+				"coffeebeanfarmertool" : "咖啡豆农场工具",
+				"construction" : "蓝图",
+				"construction1" : "让殖民者干活",
+				"construction2" : "这将打开另一个界面，您可以在其中选择蓝图类型。",
+				"constructionjob" : "建筑工作",
+				"constructionjoba" : "雇用建筑工人",
+				"constructionjobb" : "查看建筑区域",
+				"cottonb" : "用来做毛巾",
+				"cottonfarmer" : "棉花农场",
+				"cottontool" : "棉花农场工具",
+				"coversarea" : "覆盖了已有的区域",
+				"crossbow" : "弩",
+				"crossbowtooltip" : "伤害: 300 HP\n范围: 25 格\n装填速度: 8 秒",
+				"description" : "选择要创建的区域类型.",
+				"diggera" : "从世界上挖走一块",
+				"diggerarea" : "挖掘区域",
+				"diggerb" : "选择挖掘区域",
+				"diggerspecial" : "特殊挖掘区域",
+				"diggerspeciala" : "删除区域中的特殊类型",
+				"diggerspecialarea" : "特殊挖掘区域",
+				"diggerspecialb" : "选择要从中删除的区域。",
+				"fareast" : "远东",
+				"fareasta" : "_MISSING_Jobs specific to the Far East region",
+				"fareastb" : "_MISSING_Research colonization before attempting this",
+				"fisherman" : "_MISSING_Fisherman",
+				"fishermana" : "_MISSING_Will fish for... fishes",
+				"fishermantool" : "_MISSING_Fisherman Tool",
+				"fishfarmer" : "_MISSING_Fish Farmer",
+				"fishfarmera" : "_MISSING_Slower than the fisherman, but does not require water nearby.",
+				"fishfarmertool" : "_MISSING_Fish Farmer Tool",
+				"flaxfarmer" : "纺织工",
+				"flaxfarmertool" : "需要划定纺织工的工作区域",
+				"flaxherbfarming" : "亚麻和染料(herb)",
+				"flaxherbfarminga" : "亚麻和染料农场",
+				"flaxherbfarmingb" : "这将打开另一个界面，您可以选择农场类型。",
+				"food" : "食物",
+				"food1" : "食物生产",
+				"food2" : "这有很多的方式可以保证殖民者吃得饱",
+				"forester" : "伐木工",
+				"forestera" : "植树和砍树",
+				"foresterb" : "需要：树苗、草或泥土",
+				"forestertool" : "需要划定伐木工的工作区域",
+				"guard" : "卫兵",
+				"guarda" : "保护你的殖民地！",
+				"guardb" : "这将打开另一个界面，您可以选择卫兵类型。",
+				"guardsday" : "白天的卫兵",
+				"guardsnight" : "夜间的卫兵",
+				"header" : "命令工具",
+				"hollyhockfarmer" : "蜀葵的农夫",
+				"hollyhockfarmertool" : "蜀葵农民的工具",
+				"insidearea" : "不能放置在一个区域内",
+				"jobbowday" : "白天弓守卫",
+				"jobbownight" : "夜间弓守卫",
+				"jobcrossbowday" : "白天弩守卫",
+				"jobcrossbownight" : "夜间弩守卫",
+				"jobmatchlockday" : "白天的火绳枪警卫",
+				"jobmatchlocknight" : "夜间的火绳枪警卫",
+				"jobslingerday" : "白天巡逻队",
+				"jobslingernight" : "夜间巡逻队",
+				"matchlock" : "火绳枪",
+				"matchlocktooltip" : "伤害：500HP\n 范围：30块/ 重装速度：12秒",
+				"miner" : "矿工",
+				"minera" : "矿山的矿石",
+				"minerb" : "需要：镐\n矿石",
+				"minertool" : "需要划定矿工的工作区域",
+				"missingscience" : "<color=red>要求 '{0}' 先解锁.</color>",
+				"newworld" : "_MISSING_New World",
+				"newworlda" : "_MISSING_Jobs specific to the New World region",
+				"newworldb" : "_MISSING_Research colonization before attempting this",
+				"noconstructionareanearby" : "附近没有建筑面积",
+				"notarable" : "不可用",
+				"notflat" : "不平坦的",
+				"nowaternearby" : "_MISSING_No water nearby",
+				"occupiedblocks" : "已占用",
+				"olivefarmer" : "_MISSING_Olive Farmer",
+				"olivefarmera" : "_MISSING_Creates olive trees and gathers olives",
+				"olivefarmertool" : "_MISSING_Olive Farmer Tool",
+				"papyrusb" : "_MISSING_Papyrus",
+				"papyrusfarmer" : "_MISSING_Papyrus Farmer",
+				"papyrustool" : "_MISSING_Papyrus Farmer Tool",
+				"potatob" : "_MISSING_New World carbs",
+				"potatofarmer" : "_MISSING_Potato Farmer",
+				"potatotool" : "_MISSING_Potato Farmer Tool",
+				"requiresarable" : "_MISSING_Requires arable ground",
+				"riceb" : "_MISSING_Far East carbs",
+				"ricefarmer" : "_MISSING_Rice Farmer",
+				"ricefarmertool" : "_MISSING_Rice Farmer Tool",
+				"silkwormb" : "_MISSING_Used to make silk eventually",
+				"silkwormfarmer" : "_MISSING_Silkworm Farmer",
+				"silkwormfarmertool" : "_MISSING_Silkworm Farmer Tool",
+				"slinger" : "投石兵",
+				"slingertooltip" : "伤害: 50HP\n射程：12格\n装填速度：3秒",
+				"sugarcaneb" : "_MISSING_Sugarcane",
+				"sugarcanefarmer" : "_MISSING_Sugarcane Farmer",
+				"sugarcanetool" : "_MISSING_Sugarcane Farmer Tool",
+				"teafarmer" : "_MISSING_Tea Farmer",
+				"teafarmerb" : "_MISSING_Produces leaves which lead to tea",
+				"teafarmertool" : "_MISSING_Tea Farmer Tool",
+				"tomatob" : "_MISSING_Tomatoes",
+				"tomatofarmer" : "_MISSING_Tomato Farmer",
+				"tomatotool" : "_MISSING_Tomato Tool",
+				"toolarge" : "太大",
+				"toonarrow" : "树场太窄",
+				"toosmall" : "太小",
+				"tropics" : "_MISSING_Tropics",
+				"tropicsa" : "_MISSING_Jobs specific to the Tropics region",
+				"tropicsb" : "_MISSING_Research colonization before attempting this",
+				"vanillab" : "_MISSING_Vanilla",
+				"vanillafarmer" : "_MISSING_Vanilla Farmer",
+				"vanillafarmertool" : "_MISSING_Vanilla Farmer Tool",
+				"wateradjacent" : "_MISSING_Requires water adjacent to the job location",
+				"watergatherer" : "_MISSING_Watergatherer",
+				"watergatherera" : "_MISSING_Fills buckets from open water",
+				"watergatherertool" : "_MISSING_Watergatherer Tool",
+				"wheatfarmer" : "农民",
+				"wheatfarmertool" : "需要划定农民的工作区域",
+				"wolfsbanefarmer" : "附子草农夫",
+				"wolfsbanefarmertool" : "附子草农夫的工具"
+			}
+		},
+		"quickstart" : {
+			"page1" : {
+				"description" : "欢迎来到殖民地生存!",
+				"header" : "基础教程",
+				"text1" : "旗帜是你的殖民地的中心。按“2”种植。右击横幅以招募殖民者。横幅工具突出显示怪物在红色中产卵的区域。.",
+				"text2" : "食物是你殖民地的基础.确保你有足够的食物维持生存并足够供应屁民生活,食物永远不嫌多不是吗!",
+				"text3" : "_MISSING_Press \"I\" to craft a bed. Items on the left can be crafted by clicking on them. Colonists can only use items in your stockpile. They access the stockpile using crates.",
+				"text4" : "怪物会在晚上攻击你的殖民地！使用命令工具放置警卫。按“1”并单击选择。按“r”旋转某些块."
+			},
+			"page2" : {
+				"description" : "_MISSING_Bread and games are essential to grow your colony",
+				"header" : "_MISSING_Food & Happiness",
+				"text1" : "_MISSING_For every colonist you recruit, total unhappiness grows. Distribute happiness items to keep your colonists happy. Adjust the sliders in the happiness menu (press \"I\") to select which items you want to distribute.",
+				"text2" : "_MISSING_Changing the food items you distribute changes the amount of calories your colonists receive. Less than 1000 calories causes starvation; less than 2000 lowers happiness; more than 2000 increases happiness.",
+				"text3" : "_MISSING_Colonists will visit the grocer or banner once a day to get their daily happiness items. Large colonies will need multiple grocers to reduce the walking distance."
+			},
+			"page3" : {
+				"description" : "晚上怪物可是会攻击你的殖民地的!",
+				"header" : "殖民地防御",
+				"text1" : "在晚上怪物会攻击你的殖民地,你需要雇佣守卫并建造防御工事.当然由于它们腿短所以它们跳不过两格高的砖块.",
+				"text2" : "不要忽视你的殖民地状态,每当太阳升起就会激活工作模式,换句话白天会更快的消耗你的食物.",
+				"text3" : "怪物数量随着殖民者数量的增加而增加！确保你的警卫有足够的弹药！",
+				"text4" : "用科学实验室解锁新武器来击败更强的怪物，他们会造成更多的伤害并能从更远的距离打击怪物。"
+			},
+			"page4" : {
+				"description" : "矿石是你们殖民地的基本要求",
+				"header" : "采矿",
+				"text1" : "在地壳深处，可以找到各种矿石。挖到或挖到山的一边去找它们。",
+				"text2" : "右键单击矿石或黑暗石块，用命令工具让矿工工作。别忘了在附近放一个板条箱。",
+				"text3" : "熔炉招聘一个失业的殖民者为冶炼厂。他将用木柴把铜和锡冶炼成青铜锭。",
+				"text4" : "殖民者用工作台和砧工艺金属转化为有用的产品。使用科学实验室来打开铁砧."
+			},
+			"page5" : {
+				"description" : "只有弱小的殖民地才能没有科学！",
+				"header" : "科学研究",
+				"text1" : "将科学实验室招聘一名科学家。右键单击实验室或使用在库存菜单选项卡以查看菜单中的科学。",
+				"text2" : "选择研究让科学家打开它。他将完成一定的周期来完成这项研究。每个周期消耗成分。",
+				"text3" : "更高层次的研究需要科学包。招聘技术人员制作科学包。这些袋子本身可以多次重复使用。",
+				"text4" : "科学家们可以一起工作，加快研究。更科学实验室招募额外的科学家！"
+			},
+			"page6" : {
+				"description" : "_MISSING_Explore the world and start new colonies!",
+				"header" : "_MISSING_Colonization",
+				"text1" : "_MISSING_There are three biomes with unique content to the west, south and east of the central spawn location. The sun rises in the east. Unlock the glider for quicker exploration.",
+				"text2" : "_MISSING_Unlock and craft the Colony Starter Kit to colonize new biomes. You need to carry it with you to be able to start a new colony!",
+				"text3" : "_MISSING_The other biomes allow you to craft new happiness items. Use the trader to exchange items with other colonies."
+			}
+		},
+		"sciencebiome" : {
+			"arctic" : "_MISSING_The Arctic",
+			"currentarea" : "_MISSING_Current area: {0}",
+			"fareast" : "_MISSING_The Far East",
+			"newworld" : "_MISSING_The New World",
+			"noarea" : "_MISSING_None",
+			"none" : "_MISSING_None",
+			"oldworld" : "_MISSING_The Old World",
+			"tropics" : "_MISSING_The Tropics"
+		},
+		"settingsmenu" : {
+			"audio" : "音频",
+			"audiomenu" : {
+				"ambientvolume" : "环境音量",
+				"effectsvolume" : "音效音量",
+				"full" : "音频设置",
+				"mastervolume" : "主音量",
+				"menuvolume" : "菜单音量",
+				"torchvolume" : "火炬音量"
+			},
+			"gameplay" : "游戏",
+			"gameplaymenu" : {
+				"full" : "游戏设置",
+				"keymapping" : "键位设置",
+				"keymenu" : {
+					"resetall" : "重置所有"
+				},
+				"mousemenu" : {
+					"devbuttons" : "启用开发者模式",
+					"invertx" : "翻转X轴",
+					"inverty" : "翻转Y轴",
+					"sensitivitylock" : "灵敏度",
+					"sensitivityx" : "鼠标灵敏度X轴",
+					"sensitivityy" : "鼠标灵敏度Y轴",
+					"smooth" : "锁定鼠标平滑",
+					"smoothlock" : "锁定鼠标平滑",
+					"smoothx" : "鼠标平滑X轴",
+					"smoothy" : "鼠标平滑Y轴"
+				},
+				"mousesettings" : "鼠标设置"
+			},
+			"language" : "语言",
+			"languagemenu" : {
+				"coverage" : "汉化翻译完成度: {0:F1}% 已完成.",
+				"full" : "语言选择",
+				"language" : "语言",
+				"wiptext" : "汉化工作进行中。\n这不包括游戏中所有的文本,有些翻译可能不同于其它的翻译。"
+			},
+			"qualitycustom" : "自定义",
+			"qualityhigh" : "高",
+			"qualitylow" : "低",
+			"qualitymaximum" : "最高",
+			"qualitymedium" : "中",
+			"qualityminimum" : "最小",
+			"qualityoff" : "关",
+			"qualityon" : "开",
+			"qualityveryhigh" : "非常高",
+			"qualityverylow" : "非常低",
+			"video" : "视频",
+			"videomenu" : {
+				"ambientocclusion" : "环境闭塞",
+				"anisotropic" : "各向异性过滤 x16",
+				"antialiasing" : "抗锯齿",
+				"bloom" : "反射",
+				"depthoffield" : "景深",
+				"drawdistance" : "绘制距离 (*)",
+				"eyeadaptation" : "眼睛适应",
+				"fieldofview" : "视野",
+				"full" : "视频设置",
+				"fullscreen" : "全屏",
+				"fxaahigh" : "FXAA 高",
+				"fxaalow" : "FXAA 低",
+				"fxaamedium" : "FXAA 中",
+				"lightscattering" : "光散射",
+				"particleeffects" : "粒子效果",
+				"preset" : "预设",
+				"ragdoll" : "布娃娃的数量",
+				"resolution" : "分辨率",
+				"restarttoapply" : "要求游戏重新启动才能完全应用",
+				"shaderquality" : "渲染质量",
+				"sunshadowcascades" : "光影级别",
+				"sunshadowdistance" : "阴影距离",
+				"sunshadowquality" : "光影质量",
+				"taa" : "TAA",
+				"texturequality" : "材质质量",
+				"vsync" : "垂直同步",
+				"vsyncdouble" : "二次垂直同步"
+			}
+		},
+		"singleplayermenu" : {
+			"alreadyexists" : "_MISSING_World already exists!",
+			"cancel" : "_MISSING_Cancel",
+			"confirmdelete" : "_MISSING_Confirm deleting",
+			"confirmdeletedescription" : "_MISSING_You're about to delete the folder containing this world.\nWhat do you want to do?",
+			"confirmload" : "_MISSING_Confirm loading",
+			"delete" : "删除",
+			"hostingoptions" : "_MISSING_Hosting Settings",
+			"load" : "载入",
+			"loadworld" : "载入世界",
+			"modschanged" : {
+				"added" : "_MISSING_'{0}' is added",
+				"disabled" : "_MISSING_'{0}' is disabled or missing but previously used.",
+				"header" : "_MISSING_Confirm loading world",
+				"main" : "_MISSING_Loading world '{0}' but some mods changed.\nThis may cause problems.",
+				"updated" : "_MISSING_'{0}' is updated from version {1} to {2}."
+			},
+			"modslist" : {
+				"disableddependency" : "_MISSING_[Disabled]",
+				"missingdependency" : "_MISSING_[Missing]",
+				"outdateddependency" : "_MISSING_[Outdated]",
+				"requireddependency" : "_MISSING_[Requires]"
+			},
+			"newworld" : "新世界",
+			"password" : "_MISSING_Password",
+			"play" : "开始",
+			"servername" : "_MISSING_Server Name",
+			"serverport" : "_MISSING_Server Port",
+			"typegenerateworld" : "_MISSING_Generate World",
+			"typeworkshop" : "_MISSING_Workshop World",
+			"worlddate" : "日期",
+			"worldname" : "名字",
+			"worldname_long" : "_MISSING_World Name",
+			"worldseed" : "_MISSING_World seed"
+		}
+	},
+	"types" : {
+		"adobe" : "土砖",
+		"alkanet" : "朱草",
+		"alkanetstage1" : "朱草种子",
+		"banana" : "香蕉",
+		"banner" : "旗帜",
+		"bannertool" : "旗帜工具",
+		"barley" : "大麦",
+		"barleystage1" : "大麦种子",
+		"bed" : "床",
+		"beehive" : "蜂窝",
+		"beeswax" : "蜂蜡",
+		"berry" : "浆果",
+		"berrybush" : "浆果种子",
+		"blackplanks" : "黑色木板",
+		"bloomery" : "锻铁炉",
+		"boilingwater" : "开水",
+		"book" : "书",
+		"bow" : "弓",
+		"bowstring" : "弓弦",
+		"bread" : "面包",
+		"bricks" : "砖",
+		"bricksblack" : "黑色砖",
+		"bricksdarkred" : "暗红色砖",
+		"bricksdarkyellow" : "暗黄色砖",
+		"bricksred" : "红色砖",
+		"bronzeanvil" : "青铜砧",
+		"bronzearrow" : "青铜箭",
+		"bronzeaxe" : "青铜斧",
+		"bronzecoin" : "青铜币",
+		"bronzeingot" : "青铜锭",
+		"bronzepickaxe" : "青铜鹤嘴锄",
+		"bronzeplate" : "青铜板",
+		"bucketempty" : "空桶",
+		"bucketwater" : "水桶",
+		"cabbage" : "大白菜",
+		"cabbagestage1" : "大白菜种子",
+		"cacao" : "可可",
+		"cake" : "蛋糕",
+		"candle" : "蜡烛",
+		"carpetblue" : "蓝色地毯",
+		"carpetred" : "红色地毯",
+		"carpetwhite" : "白色地毯",
+		"carpetyellow" : "黄色地毯",
+		"cassava" : "木薯",
+		"charcoal" : "木炭",
+		"cherryblossom" : "樱花",
+		"cherrysapling" : "樱花树苗",
+		"cherrysaplingsmall" : "小樱花树苗",
+		"chickencoop" : "鸡笼",
+		"chickenmeat" : "鸡肉",
+		"chocolate" : "巧克力",
+		"clay" : "粘土",
+		"coalore" : "煤矿",
+		"coatedplanks" : "亮光漆木板",
+		"cobblestoneblack" : "黑色鹅卵石",
+		"cobblestoneblue" : "蓝色鹅卵石",
+		"cobblestonebrown" : "棕色鹅卵石",
+		"cobblestonegrey" : "_灰色鹅卵石",
+		"cobblestonered" : "红色鹅卵石",
+		"coffee" : "咖啡",
+		"coffeebeans" : "咖啡豆",
+		"cokes" : "焦炭",
+		"colonykit" : "殖民地初始物资",
+		"commandtool" : "命令工具",
+		"constructionjob" : "蓝图",
+		"cookedfish" : "熟鱼",
+		"cookies" : "饼干",
+		"copper" : "铜",
+		"coppernails" : "铜钉",
+		"copperparts" : "铜配件",
+		"coppertools" : "铜工具",
+		"cotton" : "棉花",
+		"cottonraw" : "原棉",
+		"cottonthread" : "棉线",
+		"cottontowel" : "棉毛巾",
+		"crate" : "储物箱",
+		"cratebread" : "面包箱",
+		"crossbow" : "弩",
+		"crossbowbolt" : "弩箭",
+		"crystal" : "水晶",
+		"darkstone" : "黑色石头",
+		"diamond" : "钻石",
+		"diamondnecklace" : "钻石项链",
+		"dirt" : "泥土",
+		"dyertable" : "染料工桌子",
+		"egg" : "鸡蛋",
+		"feather" : "羽毛",
+		"fineryforge" : "金属冶炼台",
+		"firewood" : "柴",
+		"fishermanjob" : "渔民",
+		"fishmeal" : "鱼粉",
+		"fishtank" : "鱼缸",
+		"flax" : "亚麻",
+		"flaxstage1" : "亚麻种子",
+		"flour" : "面粉",
+		"foofoo" : "Foofoo",
+		"fur" : "皮革",
+		"furnace" : "火炉",
+		"galenalead" : "方铅矿（富铅）",
+		"galenasilver" : "方铅矿（富银）",
+		"glider" : "滑翔翼",
+		"goldcoin" : "金币",
+		"goldingot" : "金锭",
+		"goldore" : "金矿",
+		"grasscolddry" : "干冷温带草",
+		"grasscoldmid" : "冷温带草",
+		"grasscoldwet" : "湿冷温带草",
+		"grasshotdriest" : "极干温带草",
+		"grasshotdry" : "干温带草",
+		"grasshotmid" : "温带草",
+		"grasshotwet" : "湿温带草",
+		"grasstaigadry" : "干针叶草",
+		"grasstaigawet" : "湿针叶草",
+		"grasstropicdriest" : "极干热带草",
+		"grasstropicdry" : "干热带草",
+		"grasstropicmid" : "热带草",
+		"grasstropicwet" : "湿热带草",
+		"grasstundradry" : "干苔原草",
+		"grasstundrawet" : "湿苔原草",
+		"grindstone" : "磨坊",
+		"guardbowdayjob" : " 白天的弓箭手",
+		"guardbownightjob" : " 夜间的弓箭手",
+		"guardcrossbowdayjob" : "白天的弩卫兵",
+		"guardcrossbownightjob" : "夜间的弩卫兵",
+		"guardmatchlockdayjob" : " 白天的火绳枪卫兵",
+		"guardmatchlocknightjob" : " 夜间的火绳枪卫兵",
+		"guardslingerdayjob" : "白天的巡逻队",
+		"guardslingernightjob" : "夜间的巡逻队",
+		"gunpowder" : "火药",
+		"gunpowderpouch" : "火药袋",
+		"gunsmithshop" : "枪械作台",
+		"gypsum" : "石膏",
+		"hollyhock" : "蜀葵",
+		"hollyhockstage1" : "蜀葵种子",
+		"honey" : "蜂蜜",
+		"ink" : "墨水",
+		"ironblock" : "铁滑车",
+		"ironingot" : "铁锭",
+		"ironore" : "铁矿",
+		"ironrivet" : "铁铆钉",
+		"ironsword" : "铁刀",
+		"ironwrought" : "熟铁",
+		"jewelry" : "首饰",
+		"kaolinite" : "高岭石",
+		"kiln" : "窑",
+		"lanternblue" : "蓝色灯笼",
+		"lanterncyan" : "青色灯笼",
+		"lanterngreen" : "绿色灯笼",
+		"lanternorange" : "橙色灯笼",
+		"lanternpink" : "粉色灯笼",
+		"lanternred" : "红色灯笼",
+		"lanternwhite" : "白色灯笼",
+		"lanternyellow" : "灯笼",
+		"lead" : "铅",
+		"leadbullet" : "铅弹",
+		"leavesfallorange" : "_MISSING_Orange Leaves",
+		"leavesfallred" : "_MISSING_Red Leaves",
+		"leavesfallyellow" : "_MISSING_Yellow Leaves",
+		"leavesgreendark" : "_MISSING_Dark Leaves",
+		"leavesgreenlight" : "_MISSING_Light Leaves",
+		"leavestaiga" : "针叶林树",
+		"leavestemperate" : "温带树",
+		"linen" : "亚麻布",
+		"linenbag" : "麻布袋",
+		"linenpouch" : "麻布袋",
+		"lobster" : "_MISSING_Lobster",
+		"lobsterprepared" : "_MISSING_Cooked Lobster",
+		"logtaiga" : "针叶林原木",
+		"logtemperate" : "温带原木",
+		"luxurymeal" : "_MISSING_Luxury Meal",
+		"matchlockgun" : "火枪",
+		"minerjob" : "矿工的工作",
+		"mint" : "造币厂",
+		"newworldmeal" : "_MISSING_New World Meal",
+		"npcshop" : "_MISSING_Grocery Store",
+		"olive" : "_MISSING_Olive",
+		"oliveleaves" : "_MISSING_Olive Leaves",
+		"oliveoil" : "_MISSING_Olive Oil",
+		"olivesapling" : "_MISSING_Olive Sapling",
+		"oven" : "烤箱",
+		"paperempty" : "_MISSING_Empty Paper",
+		"papertext" : "_MISSING_Paper With Text",
+		"papyrus" : "_MISSING_Papyrus",
+		"perpetualstew" : "_MISSING_Perpetual Stew",
+		"planks" : "木板",
+		"planksblue" : "蓝色木板",
+		"plankscyan" : "青色木板",
+		"planksgreen" : "绿色木板",
+		"planksgrey" : "灰色木板",
+		"plankspink" : "粉色木板",
+		"planksred" : "红色木板",
+		"planksyellow" : "黄色木板",
+		"plasterblock" : "石膏砖块",
+		"porcelainbiscuit" : "_MISSING_Porcelain Biscuit",
+		"porcelainglazed" : "釉面瓷",
+		"porcelainraw" : "_MISSING_Raw Porcelain",
+		"potato" : "土豆",
+		"printingpress" : "_MISSING_Printing Press",
+		"quarterblockblack" : "黑色四分之一块",
+		"quarterblockbrowndark" : "茶褐色四分之一块",
+		"quarterblockbrownlight" : "浅棕色四分之一块",
+		"quarterblockgrey" : "灰色四分之一块",
+		"quarterblockwhite" : "白色四分之一块",
+		"rawbeeswax" : "_MISSING_Raw Beeswax",
+		"rawfish" : "生鱼",
+		"redplanks" : "绛色木板",
+		"rice" : "米",
+		"ricemeal" : "米饭",
+		"salpeter" : "硝酸钾",
+		"sand" : "沙子",
+		"saplingfallorange" : "橙色树苗",
+		"saplingtaiga" : "热带树苗",
+		"sappling" : "树苗",
+		"sciencebagadvanced" : "进阶科学袋",
+		"sciencebagbasic" : "基础科学袋",
+		"sciencebagcolony" : "殖民地科学袋",
+		"sciencebaglife" : "生命科学袋",
+		"sciencebagmilitary" : "军事科学袋",
+		"sciencelab" : "科学实验台",
+		"shop" : "商店",
+		"silk" : "丝绸",
+		"silkpillow" : "丝绸枕头",
+		"silkthread" : "丝线",
+		"silkwormcocoon" : "蚕茧",
+		"silveringot" : "银锭",
+		"sling" : "投石器",
+		"slingbullet" : "子弹",
+		"snow" : "雪",
+		"spinningwheel" : "纺车",
+		"splittingstump" : "树桩",
+		"steelingot" : "钢锭",
+		"steelparts" : "钢制零件",
+		"stoneblock" : "砖块",
+		"stonebricks" : "石砖",
+		"stonebricksblack" : "黑色石头砖块",
+		"stonebricksbrown" : "棕色石头砖块",
+		"stonebrickswhite" : "白色石头砖块",
+		"stonemasonworkbench" : "石匠工作台",
+		"stove" : "火炉",
+		"straw" : "稻草",
+		"sugar" : "糖",
+		"tailorshop" : "裁缝店",
+		"tea" : "茶",
+		"tealeavesprocessed" : "加工茶叶",
+		"tealeavesprocesseddried" : "干茶叶",
+		"tealeavesraw" : "生茶叶",
+		"technologisttable" : "技师桌",
+		"tin" : "锡",
+		"tomato" : "番茄",
+		"torch" : "火把",
+		"trader" : "商人",
+		"undershirt" : "汗衫",
+		"vanilla" : "香草",
+		"water" : "水",
+		"watergathererjob" : "打水的",
+		"waterpump" : "水泵",
+		"waxtablet" : "蜡片",
+		"wheat" : "小麦",
+		"wheatstage1" : "小麦种子",
+		"wintercoat" : "冬衣",
+		"wolfsbane" : "附子草",
+		"wolfsbanestage1" : "附子草种子",
+		"woodcoating" : "_MISSING_Wood Coating",
+		"workbench" : "工作台",
+		"writerdesk" : "写字桌"
+	},
+	"typeuses" : {
+		"adobe" : "富人视是为粪土",
+		"alkanet" : "这是现实中的红染料的来源",
+		"banana" : "在铀矿中只能保持三分钟的放射性",
+		"barley" : "鸡的最爱",
+		"bed" : "要稻草，不要螺丝",
+		"beeswax" : "粘粘的",
+		"berry" : "无毒",
+		"berrybush" : "一种可以暂且饱腹的食物",
+		"blackplanks" : "高度易燃,小心火烛",
+		"bloomery" : "用木炭来冶炼铁和方铅矿。",
+		"boilingwater" : "不知为什么，这水会一直沸腾",
+		"bow" : "让弓箭手用吧",
+		"bowstring" : "\"嗖！\"",
+		"bread" : "味美，医疗方面有奇效。",
+		"bricks" : "一块砖罢了",
+		"bronzeanvil" : "_MISSING_Not block-shaped any longer!",
+		"bronzearrow" : "怪物继续留下负面评论。卫兵们喜欢它！",
+		"bronzeaxe" : "林农需要一！",
+		"bronzecoin" : "不如黄金值钱",
+		"bronzeingot" : "青铜石",
+		"bronzepickaxe" : "使用命令工具分配矿工。他会用镐从一块矿石或石头提取无限！",
+		"bronzeplate" : "最喜欢的食物，在它变成绿色的使用它！",
+		"bucketempty" : "_MISSING_Technically a bucket filled with air",
+		"bucketwater" : "_MISSING_No, we won’t allow you to flood your friend’s mine",
+		"cabbage" : "_MISSING_Colonists finally eat their greens",
+		"cacao" : "_MISSING_We hope it's fair trade",
+		"cake" : "_MISSING_The meme is dead",
+		"carpetblue" : "屁民不该受到红地毯的待遇",
+		"carpetred" : "如果你把浆果果汁在地毯上没关系！",
+		"carpetwhite" : "它的颜色工坊",
+		"carpetyellow" : "太蓬松了！",
+		"cassava" : "_MISSING_Contains cyanide",
+		"charcoal" : "吸收氰化物",
+		"cherryblossom" : "游戏里面最粉嫩的东西",
+		"cherrysapling" : "美容项目。支付10 殖民地金币解锁",
+		"cherrysaplingsmall" : "_MISSING_Cosmetic item. Pay 5 Colonycoins to unlock",
+		"chickenmeat" : "_MISSING_Animals were harmed in the making of this food",
+		"chocolate" : "_MISSING_Ancient Gods were punished for sharing this with humans",
+		"clay" : "我希望你能碰它",
+		"coalore" : "警告：可能会引起气候问题",
+		"coatedplanks" : "典雅华贵的木板!多闪亮!",
+		"coffee" : "_MISSING_Useful when rushing deadlines",
+		"coffeebeans" : "_MISSING_Caffeine is a psychoactive drug",
+		"cokes" : "创造和燃烧这东西可能是完全安全的为您的健康和环境",
+		"colonykit" : "_MISSING_Required to start additional colonies",
+		"cookedfish" : "_MISSING_Swimming capabilities are dramatically reduced",
+		"cookies" : "_MISSING_Name derives from the Dutch word 'Koekje'",
+		"copper" : "不需要熔炼。所以方便！",
+		"coppernails" : "一种创新的组合木材的方法",
+		"copperparts" : "金属提高了一切",
+		"coppertools" : "没有工具你切不到面包。",
+		"cotton" : "_MISSING_Called “Tree Wool” in German",
+		"cottonraw" : "_MISSING_Needs some processing",
+		"cottonthread" : "_MISSING_You’re going to need a lot of these",
+		"crate" : "这是个异次元箱子!",
+		"cratebread" : "_MISSING_For storage or gifting. Crate is not used by colonists!",
+		"crossbow" : "小兄弟的牀子弩",
+		"crossbowbolt" : "更硬，更好，更快，更强",
+		"crystal" : "丰富的铅矿冶炼时产生的",
+		"diamond" : "_MISSING_“Why so hard!” said to the diamond one day the charcoal",
+		"dirt" : "脏兮兮的",
+		"dyertable" : "传说中的绘画技巧",
+		"egg" : "_MISSING_Came at least three hundred million years before the chicken",
+		"feather" : "_MISSING_Falls as quickly to the ground as a hammer, on the Moon.",
+		"fineryforge" : "需要可乐创造钢和金元宝",
+		"firewood" : "基本的燃料",
+		"fishmeal" : "_MISSING_Great fertilizers for cabbages",
+		"flax" : "皇家的颜色",
+		"flaxstage1" : "把它放在地上",
+		"flour" : "面粉嘛大家懂得~",
+		"foofoo" : "_MISSING_/ fufu / fufuo / foufou",
+		"fur" : "_MISSING_Fluffy",
+		"furnace" : "以木柴为燃料制造青铜锭和砖",
+		"galenalead" : "包含大量的铅",
+		"galenasilver" : "含有大量的银",
+		"glider" : "_MISSING_Press 'Space' to go up, hold 'W' to go forward!",
+		"goldcoin" : "有一面国王的画像",
+		"goldingot" : "曾经用来保证纸币的价值",
+		"goldore" : "不要失去它",
+		"grindstone" : "磨坊用于把小麦磨成面粉",
+		"gunpowder" : "小心轻放！",
+		"gunpowderpouch" : "可开火的火绳枪",
+		"gunsmithshop" : "枪炮和弹药",
+		"gypsum" : "美容项目。应该是道具收费",
+		"hollyhock" : "现实生活中的泻药。不是在游戏中。不是!",
+		"ink" : "_MISSING_Careful, Ned, careful now!",
+		"ironblock" : "不要把它放在你的脚下",
+		"ironingot" : "加工的铁",
+		"ironore" : "用铁镐使铁矿石开采",
+		"ironrivet" : "比胶带更强大",
+		"ironsword" : "放尖刺",
+		"ironwrought" : "锻造意味着“工作”",
+		"kaolinite" : "_MISSING_Used for porcelain",
+		"kiln" : "把木板变成木炭",
+		"lanterncyan" : "现在就是未来",
+		"lanterngreen" : "使你的殖民地绿色生态",
+		"lanternorange" : "更加舒适",
+		"lanternred" : "这些在阿姆斯特丹也很受欢迎。",
+		"lanternyellow" : "昂贵的火炬",
+		"lead" : "使用它在您的管道和铅中毒毁灭你们的文明",
+		"leadbullet" : "可以用火绳枪",
+		"leavestaiga" : "我感觉在过圣诞节。",
+		"leavestemperate" : "试着从高塔上跳进一堆这样的东西。",
+		"linen" : "内衣是指由亚麻制成的内衣。",
+		"linenbag" : "比塑料袋好",
+		"linenpouch" : "可以用来储存火药",
+		"lobster" : "_MISSING_Obsessed with status and hierarchy",
+		"lobsterprepared" : "_MISSING_Not so dominant right now",
+		"logtaiga" : "比较冷",
+		"logtemperate" : "输出日志的类，但不同",
+		"luxurymeal" : "_MISSING_Sign of civilization",
+		"matchlockgun" : "需要火药袋来射击铅弹",
+		"mint" : "如果国王说缺钱的话,那么它就有用了",
+		"newworldmeal" : "_MISSING_Forefather of all fast food",
+		"npcshop" : "_MISSING_Colonists visit here once a day to gather food and happiness items",
+		"olive" : "_MISSING_Grow on olive branches",
+		"oven" : "用木柴作为燃料把面粉烤成面包",
+		"paperempty" : "_MISSING_So much potential",
+		"papertext" : "_MISSING_Not at the level of Shakespeare yet",
+		"papyrus" : "_MISSING_Future paper",
+		"perpetualstew" : "_MISSING_Truly medieval",
+		"planks" : "大体积的木材原料哦！",
+		"plasterblock" : "为了那典雅华贵的装饰",
+		"porcelainbiscuit" : "_MISSING_Needs to be glazed",
+		"porcelainglazed" : "_MISSING_Done!",
+		"porcelainraw" : "_MISSING_Needs to be fired",
+		"potato" : "_MISSING_Boil ‘em, mash ‘em, stick ‘em in a stew",
+		"printingpress" : "_MISSING_Respect its freedom",
+		"rawbeeswax" : "_MISSING_Looks tasty",
+		"rawfish" : "_MISSING_#organic #hormonefree #grassfed",
+		"redplanks" : "没有任何实用价值,但是这是高贵的红木啊",
+		"rice" : "_MISSING_Provides more than 20% of all calories consumed by humans",
+		"ricemeal" : "_MISSING_Zun’s favorite",
+		"salpeter" : "不要用这东西把食物调味",
+		"sand" : "小心沙蛇",
+		"saplingfallorange" : "_MISSING_Orange future tree",
+		"saplingtaiga" : "_MISSING_Slightly different tree",
+		"sappling" : "未来的树",
+		"sciencebagadvanced" : "高级科学要求",
+		"sciencebagbasic" : "基础科学研究所需",
+		"sciencebagcolony" : "殖民地相关科学所需",
+		"sciencebaglife" : "需要研究与健康和生命有关的科学",
+		"sciencebagmilitary" : "需要研究与战斗有关的科学",
+		"sciencelab" : "科学家用来解开新技术的。多个科学家可以一起工作！",
+		"shop" : "现在只能买非常贵的亚麻籽了",
+		"silk" : "_MISSING_So smooth",
+		"silkthread" : "_MISSING_Easy to lose",
+		"silkwormcocoon" : "_MISSING_Very tiny",
+		"silveringot" : "比铅更有价值",
+		"sling" : "小心，歌利亚",
+		"slingbullet" : "其实只是一块小石头",
+		"snow" : "洁白无暇",
+		"splittingstump" : "把木头劈成柴的更快方法",
+		"steelingot" : "它像钢铁一样坚固",
+		"steelparts" : "钢锭太笨重了。",
+		"stonebricks" : "紧急情况下的打孔",
+		"stonemasonworkbench" : "创造五十种色调的砖",
+		"stove" : "_MISSING_Used to fill the surrounding area with delicious smells",
+		"straw" : "农民需要床",
+		"sugar" : "_MISSING_Can easily cause obesity, diabetes and other health problems",
+		"tailorshop" : "_MISSING_Tailored clothes for everyone!",
+		"technologisttable" : "工艺科学袋",
+		"tin" : "只是有点毒",
+		"tomato" : "_MISSING_Fruit or vegetable?",
+		"torch" : "让生活充满光明！",
+		"trader" : "_MISSING_Unexpectedly used for trading",
+		"vanilla" : "_MISSING_Delicious taste",
+		"water" : "它可以淹了全世界",
+		"waterpump" : "_MISSING_Like the water gatherer, but slower and doesn't need open water",
+		"waxtablet" : "_MISSING_No headphone jack",
+		"wheat" : "用烤箱把它变成面包！",
+		"wheatstage1" : "未来的面包",
+		"wolfsbane" : "狼攻击你的殖民地",
+		"workbench" : "招募工匠。为你做工艺品!",
+		"writerdesk" : "_MISSING_Highly ergonomic"
+	}
+}
